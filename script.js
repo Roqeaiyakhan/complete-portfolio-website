@@ -7,9 +7,14 @@ hamurger.addEventListener('click', () =>{
     mobileMenu.classList.toggle("active");
 });
 
+// menu section
 
-
-
+menuItem.forEach((item) => {
+    item.addEventListener("click", () => {
+        hamurger.classList.toggle("active");
+        mobileMenu.classList.toggle("active");
+    });
+});
 
 
 
