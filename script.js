@@ -1,3 +1,19 @@
+// for header section
+
+var header = document.querySelector(".header");
+
+hamurger.addEventListener('click', () =>{
+    hamurger.classList.toggle("active");
+    mobileMenu.classList.toggle("active");
+});
+
+
+
+
+
+
+
+
 const form = document.getElementById("contact-form");
 
 form.addEventListener("submit", function(e) {
